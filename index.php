@@ -5,7 +5,9 @@
         <meta name='viewport' content='width=device-width initial-scale=1.0'>
         <link rel='text/html' href='/index.html'>
         <link rel="stylesheet" href="/style.css">
-        <?php get_ ?>
+        <?php
+        
+        ?>
     </head>
     <body background='/assets/3kinifes1kick.mp4'>
             <source src='/assets/3kinifes1kick.mp4'>
