@@ -45,19 +45,8 @@ content {
     color:crimson;
     align-self: start;
     align-items: baseline;
-    text-align:left
 }
-.dropdown{
-    text-align:left;
-    color:crimson;
-}
-.navigation{
-    padding-right:1000px;
-    border:20px;
-    color:white;
-    background-color:crimson;
-}
-.button{
+button{
     background-color:crimson;
     color:white;
 }
