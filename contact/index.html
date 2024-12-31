@@ -7,27 +7,39 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <menu id="menu" contextmenu='' class="navigation">
-        <button title="Home button" type="button" onclick="window.location.href='/index.html' ">
-            <link for='Home' href='/index.html'>
-            <label>Home</label>
-        </button>
-        <button title="quotes button" type='button' onclick='window.location.href="/quotes/index.html"'>
-            <link id="Quotes_button_link" href="/Quotes/index.html" title="Quotes">
-            <label>Quotes</label>
-        </button><br>
-        <button title="quotes button" type='button' onclick='window.location.href="/quotes/index.html"'>
-            <link id="contact_button_link" href="/contact/index.html" title="contact">
-            <label>contact</label>
-        </button><br>
-        <button title="contact button" type='button' onclick='window.location.href="/videos/index.html"'>
-            <link id="videos_button_link" href="/videos/index.html" title="videos">
-            <label>videos</label>
-        </button>
-        <button type="button">
-            <link href='/about/index.html'>
-            <label>About</label>
-        </button>
-    </menu>
+<menu id="menu" contextmenu='' class="navigation">
+    <button title="Home button" type="button" onclick="window.location.href='/index.html' ">
+        <link for='Home' href='/index.html'>
+        <label>Home</label>
+    </button>
+    <button title="quotes button" type='button' onclick='window.location.href="/quotes/index.html"'>
+        <link id="Quotes_button_link" href="/Quotes/index.html" title="Quotes">
+        <label>Quotes</label>
+    </button>
+    <button title="contact button" type='button' onclick='window.location.href="/contact/index.html"'>
+        <link id="contact_button_link" href="/9contact/index.html" title="contact">
+        <label>contact</label>
+    </button>
+    <button title="contact button" type='button' onclick='window.location.href="/videos/index.html"'>
+        <link id="videos_button_link" href="/videos/index.html" title="videos">
+        <label>videos</label>
+    </button>
+    <button type="button" title='about button' value='/About/index.html'
+        onclick='window.location.href="/about/index.html"'>
+        <link href='/about/index.html'>
+        <label>About</label>
+    </button>
+</menu>
+    <header>Contact</header>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    
 </body>
 </html>

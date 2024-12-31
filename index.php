@@ -14,9 +14,9 @@
             <?php
                 $videoPath = '/assets/3kinifes1kick.mp4';
                 if (file_exists($videoPath)) {
-                    header('Content-Type: video/.mp4')
-                    header('Content-length: '. file_size(videoPath($videoPath)));
-                    header('Content-Disposition: inline; filename=' . base_name($videoPath  . '"'));
+                    header('Content-Type: video/.mp4');
+                    header('Content-length: '. filesize($videoPath));
+                    header('Content-Disposition: inline; filename=' . basename($videoPath) . '"');
                     // Read the file and output it to the browser
                     readfile($videoPath);
                     exit;
